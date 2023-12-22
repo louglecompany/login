@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    max-width: 500px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+/* ... (o mesmo CSS) */
+a {
+    color: #4562a0;
+    margin-bottom: 10px;
+    text-decoration: none; /* Remova o sublinhado padrão dos links */
+    display: inline-block; /* Para que a margem inferior não afete o espaçamento do botão */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Adicione um estilo diferente para o link "Esqueceu a senha?" */
+#forgot-password {
+    color: #3498db;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
